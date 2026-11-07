@@ -3,188 +3,365 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Магазин Мама</title>
+<title>Магазин Мама — учёт</title>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #222; padding: 20px; }
-  .container { max-width: 860px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
-  h1 { font-size: 22px; margin-bottom: 12px; }
-  h2 { font-size: 17px; margin: 18px 0 6px; color: #333; }
-  h3 { font-size: 15px; margin: 14px 0 4px; color: #444; }
-  p { font-size: 14px; line-height: 1.5; color: #555; margin-bottom: 8px; }
-  blockquote { background: #f0f4ff; padding: 10px 14px; border-radius: 8px; margin-bottom: 10px; font-size: 13px; color: #555; }
-  table { width: 100%; border-collapse: collapse; margin: 8px 0 12px; font-size: 13px; }
-  th, td { padding: 6px 10px; border: 1px solid #ddd; text-align: left; }
-  th { background: #f0f2f5; font-weight: 600; font-size: 12px; }
-  td:last-child { text-align: center; font-weight: 600; }
-  tr:nth-child(even) { background: #fafafa; }
-  hr { border: none; border-top: 1px solid #ddd; margin: 12px 0; }
-  a { color: #1a73e8; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  img { max-width: 180px; height: auto; border-radius: 6px; margin: 4px; cursor: pointer; }
-  .footer { text-align: center; color: #999; font-size: 11px; margin-top: 16px; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #222; line-height: 1.6; padding: 20px; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 1.5em; margin-bottom: 6px; }
+h2 { font-size: 1.15em; margin: 20px 0 6px; padding-bottom: 4px; border-bottom: 2px solid #e0e0e0; cursor: pointer; user-select: none; }
+h2:hover { color: #1a73e8; }
+h3 { font-size: 0.95em; margin: 12px 0 4px; color: #444; }
+p { margin: 3px 0 6px; font-size: 0.9em; }
+a { color: #1a73e8; text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 6px 0 10px; font-size: 0.88em; }
+th, td { padding: 4px 8px; border: 1px solid #ddd; }
+th { background: #f0f0f0; font-weight: 600; white-space: nowrap; }
+hr { border: none; border-top: 1px solid #ccc; margin: 16px 0; }
+.footer { text-align: center; color: #999; font-size: 0.8em; margin-top: 24px; padding-top: 10px; border-top: 1px solid #eee; }
+.photos-row { display: flex; gap: 6px; flex-wrap: wrap; margin: 2px 0; }
+.photos-row a { background: #f0f0f0; padding: 2px 10px; border-radius: 4px; font-size: 0.85em; }
 </style>
 </head>
 <body>
 <div class="container">
 <h1>🏪 Магазин «Мама»</h1>
-<blockquote>
-<p>Учёт остатков и количества продукции. Заполняется по мере поступления данных.</p>
-</blockquote>
-<hr />
-<h2>🩱 ENNESSY VIA — детские танцевальные колготки</h2>
-<p><strong>Производитель:</strong> Yiwu Wudaojia Clothing Co., Ltd, Zhejiang, China. <strong>Плотность:</strong> 90 den. <strong>Состав:</strong> 84% нейлон, 16% эластан. <strong>Дата пр-ва:</strong> 02.2023.<br />
-Фото модели: <a href="https://raw.githubusercontent.com/Skokidze/mama-shop/main/assets/ennessy-via/k90-white-child-front.jpg">📷</a></p>
+
+<p>> Учёт остатков и количества продукции. Заполняется по мере поступления данных.</p>
+
+<hr>
+
+<h2>ENNESSY VIA — детские танцевальные колготки</h2>
+
+<p><b>Производитель:</b> Yiwu Wudaojia Clothing Co., Ltd, Zhejiang, China. <b>Плотность:</b> 90 den. <b>Состав:</b> 84% нейлон, 16% эластан. <b>Дата пр-ва:</b> 02.2023.</p>
+
+<p>Фото модели: <a href="assets/ennessy-via/k90-white-child-front.jpg">📷</a></p>
+
 <table>
-<thead>
-<tr>
-<th>Артикул</th>
-<th>Кол-во</th>
-<th>Цвет</th>
-<th>Размер</th>
-<th>Рост (см)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>K90</td>
-<td>6</td>
-<td>белый</td>
-<td>2 (S)</td>
-<td>122–134</td>
-</tr>
-<tr>
-<td>K90</td>
-<td>4</td>
-<td>белый</td>
-<td>15+</td>
-<td>—</td>
-</tr>
-<tr>
-<td>K90</td>
-<td>10</td>
-<td>розовый</td>
-<td>3–5 лет</td>
-<td>—</td>
-</tr>
-<tr>
-<td>K90</td>
-<td>10</td>
-<td>розовый</td>
-<td>5–10 лет</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<hr />
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Кол-во</td><td style='text-align:center'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Рост (см)</td></tr>
+<tr><td style='text-align:left'>K90</td><td style='text-align:left'>6</td><td style='text-align:center'>белый</td><td style='text-align:center'>2 (S)</td><td style='text-align:center'>122–134</td></tr>
+<tr><td style='text-align:left'>K90</td><td style='text-align:left'>4</td><td style='text-align:center'>белый</td><td style='text-align:center'>15+</td><td style='text-align:center'>—</td></tr>
+<tr><td style='text-align:left'>K90</td><td style='text-align:left'>10</td><td style='text-align:center'>розовый</td><td style='text-align:center'>3–5 лет</td><td style='text-align:center'>—</td></tr>
+<tr><td style='text-align:left'>K90</td><td style='text-align:left'>10</td><td style='text-align:center'>розовый</td><td style='text-align:center'>5–10 лет</td><td style='text-align:center'>—</td></tr>
+
+<hr>
+
 <h2>Arina Ballerina — колготки танцевальные</h2>
-<p><strong>Производитель:</strong> Charmante Co. S.R.L. (Италия). <strong>Состав:</strong> полиамид, эластан, хлопок. Размерная сетка: 2–6 (5–15 лет, рост 116–164 см).</p>
+
+<p><b>Производитель:</b> Charmante Co. S.R.L. (Италия). <b>Состав:</b> полиамид, эластан, хлопок. Размерная сетка: 2–6 (5–15 лет, рост 116–164 см).</p>
+
 <h3>Piruetta 60</h3>
-<p>Сверхтонкие, прочные, из микрофибры. Для повседневной носки и спорта. Импортёр: ООО «ТоргАльянс» (Москва).<br />
-Фото: <a href="https://raw.githubusercontent.com/Skokidze/mama-shop/main/assets/ennessy-via/piruetta-60-front.jpg">📷 упаковка</a></p>
+
+<p>Сверхтонкие, прочные, из микрофибры. Для повседневной носки и спорта. Импортёр: ООО «ТоргАльянс» (Москва).</p>
+
+<p>Фото: <a href="assets/ennessy-via/piruetta-60-front.jpg">📷упаковка</a></p>
+
 <table>
-<thead>
-<tr>
-<th>Цвет</th>
-<th>Размер (см)</th>
-<th style="text-align: center;">Кол-во</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>белый (naturel)</td>
-<td>128–134</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr>
-<td>белый (naturel)</td>
-<td>140–146</td>
-<td style="text-align: center;">6</td>
-</tr>
-<tr>
-<td>белый (naturel)</td>
-<td>152–158</td>
-<td style="text-align: center;">19</td>
-</tr>
-<tr>
-<td>розовый (rosa)</td>
-<td>160–164</td>
-<td style="text-align: center;">2</td>
-</tr>
-<tr>
-<td>чёрный (nero)</td>
-<td>116–122</td>
-<td style="text-align: center;">1</td>
-</tr>
-<tr>
-<td>чёрный (nero)</td>
-<td>128–134</td>
-<td style="text-align: center;">1</td>
-</tr>
-<tr>
-<td>чёрный (nero)</td>
-<td>152–158</td>
-<td style="text-align: center;">1</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Всего:</strong> 42 пачки</p>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Цвет</td><td style='text-align:left'>Размер (см)</td><td style='text-align:center'>Кол-во</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>белый (naturel)</td><td style='text-align:left'>128–134</td><td style='text-align:center'>12</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>белый (naturel)</td><td style='text-align:left'>140–146</td><td style='text-align:center'>6</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>белый (naturel)</td><td style='text-align:left'>152–158</td><td style='text-align:center'>19</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>розовый (rosa)</td><td style='text-align:left'>160–164</td><td style='text-align:center'>2</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>чёрный (nero)</td><td style='text-align:left'>116–122</td><td style='text-align:center'>1</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>чёрный (nero)</td><td style='text-align:left'>128–134</td><td style='text-align:center'>1</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>чёрный (nero)</td><td style='text-align:left'>152–158</td><td style='text-align:center'>1</td><td></td><td></td></tr>
+
+<p><b>Всего:</b> 42 пачки</p>
+
 <h3>Croisetta 60</h3>
-<p>Детские кружевные, сверхтонкие, поддерживающие, открытый носок. Для танцев и спорта.<br />
-Фото: <a href="https://raw.githubusercontent.com/Skokidze/mama-shop/main/assets/ennessy-via/croisetta-60-front.jpg">📷 упаковка</a> <a href="https://raw.githubusercontent.com/Skokidze/mama-shop/main/assets/ennessy-via/croisetta-60-desc.jpg">📷 описание</a></p>
+
+<p>Детские кружевные, сверхтонкие, поддерживающие, открытый носок. Для танцев и спорта.</p>
+
+<p>Фото: <a href="assets/ennessy-via/croisetta-60-front.jpg">📷упаковка</a> <a href="assets/ennessy-via/croisetta-60-desc.jpg">📷описание</a></p>
+
 <table>
-<thead>
-<tr>
-<th>Цвет</th>
-<th>Размер (см)</th>
-<th style="text-align: center;">Кол-во</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>белый (naturel)</td>
-<td>128–134</td>
-<td style="text-align: center;">3</td>
-</tr>
-<tr>
-<td>розовый (rosa)</td>
-<td>116–122</td>
-<td style="text-align: center;">1</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Всего:</strong> 4 пачки</p>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Цвет</td><td style='text-align:left'>Размер (см)</td><td style='text-align:center'>Кол-во</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>белый (naturel)</td><td style='text-align:left'>128–134</td><td style='text-align:center'>3</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>розовый (rosa)</td><td style='text-align:left'>116–122</td><td style='text-align:center'>1</td><td></td><td></td></tr>
+
+<p><b>Всего:</b> 4 пачки</p>
+
 <h3>Grazia 40</h3>
-<p>Детские кружевные из микрофибры. Для спорта, выступлений и маскарадов.<br />
-Фото: <a href="https://raw.githubusercontent.com/Skokidze/mama-shop/main/assets/ennessy-via/grazia-40-front.jpg">📷 упаковка</a> <a href="https://raw.githubusercontent.com/Skokidze/mama-shop/main/assets/ennessy-via/grazia-40-desc.jpg">📷 описание</a></p>
+
+<p>Детские кружевные из микрофибры. Для спорта, выступлений и маскарадов.</p>
+
+<p>Фото: <a href="assets/ennessy-via/grazia-40-front.jpg">📷упаковка</a> <a href="assets/ennessy-via/grazia-40-desc.jpg">📷описание</a></p>
+
 <table>
-<thead>
-<tr>
-<th>Цвет</th>
-<th>Размер (см)</th>
-<th style="text-align: center;">Кол-во</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>белый (bianco)</td>
-<td>128–134</td>
-<td style="text-align: center;">3</td>
-</tr>
-<tr>
-<td>розовый (rosa)</td>
-<td>128–134</td>
-<td style="text-align: center;">1</td>
-</tr>
-<tr>
-<td>розовый (rosa)</td>
-<td>140–146</td>
-<td style="text-align: center;">1</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Всего:</strong> 5 пачек</p>
-<div class="footer">Сгенерировано Hermes Agent</div>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Цвет</td><td style='text-align:left'>Размер (см)</td><td style='text-align:center'>Кол-во</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>белый (bianco)</td><td style='text-align:left'>128–134</td><td style='text-align:center'>3</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>розовый (rosa)</td><td style='text-align:left'>128–134</td><td style='text-align:center'>1</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>розовый (rosa)</td><td style='text-align:left'>140–146</td><td style='text-align:center'>1</td><td></td><td></td></tr>
+
+<p><b>Всего:</b> 5 пачек</p>
+
+<hr>
+
+<h2>PRIDANCE Performance Lights — колготки для выступлений</h2>
+
+<p><b>Сайт:</b> https://www.pridance.it/ru</p>
+
+<p><b>Производитель:</b> Италия.</p>
+
+<p>Мерцающие (ultrashimmery), для сцены и выступлений.</p>
+
+<p><b>Размерная сетка:</b></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Размер</td><td style='text-align:left'>Рост (см)</td><td style='text-align:center'>Возраст</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>0000</td><td style='text-align:left'>75–90</td><td style='text-align:center'>2–4 года</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>00</td><td style='text-align:left'>90–115</td><td style='text-align:center'>4–6 лет</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>0</td><td style='text-align:left'>115–125</td><td style='text-align:center'>6–8 лет</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>S</td><td style='text-align:left'>125–140</td><td style='text-align:center'>8–10 лет</td><td></td><td></td></tr>
+
+<p>Фото модели: <a href="assets/ennessy-via/pridance-art515-front.jpg">📷упаковка</a> <a href="assets/ennessy-via/pridance-515-front-v2.jpg">📷вариант 2</a> <a href="assets/ennessy-via/pridance-label.jpg">📷этикетка</a> <a href="assets/ennessy-via/pridance-size-chart.jpg">📷размерная сетка</a></p>
+
+<h3>ART.515</h3>
+
+<p><i>Состав: 85% эластан, 15% полиамид.</i></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>ART.515</td><td style='text-align:left'>Amber</td><td style='text-align:center'>0</td><td style='text-align:center'>15</td><td></td></tr>
+<tr><td style='text-align:left'>ART.515</td><td style='text-align:left'>Amber</td><td style='text-align:center'>S</td><td style='text-align:center'>2</td><td></td></tr>
+<tr><td style='text-align:left'>ART.515</td><td style='text-align:left'>Caribbean</td><td style='text-align:center'>S</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>ART.515</td><td style='text-align:left'>Light Toast</td><td style='text-align:center'>S</td><td style='text-align:center'>2</td><td></td></tr>
+<tr><td style='text-align:left'>ART.515</td><td style='text-align:left'>Light Toast</td><td style='text-align:center'>0</td><td style='text-align:center'>7</td><td></td></tr>
+
+<h3>ART.514 — Performance Microfiber Compression Tight</h3>
+
+<p><i>Состав: полиамид, эластан.</i></p>
+
+<p>Фото: <a href="assets/ennessy-via/pridance-514-front.jpg">📷упаковка</a> <a href="assets/ennessy-via/pridance-514-size-chart.jpg">📷размерная сетка</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>ART.514</td><td style='text-align:left'>Amber</td><td style='text-align:center'>M</td><td style='text-align:center'>3</td><td></td></tr>
+<tr><td style='text-align:left'>ART.514</td><td style='text-align:left'>Toast</td><td style='text-align:center'>M</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>ART.514</td><td style='text-align:left'>Light Toast</td><td style='text-align:center'>M</td><td style='text-align:center'>1</td><td></td></tr>
+
+<h3>ART.513</h3>
+
+<p>Фото: <a href="assets/ennessy-via/pridance-513-set.jpg">📷упаковка</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>ART.513</td><td style='text-align:left'>Amber</td><td style='text-align:center'>M</td><td style='text-align:center'>2</td><td></td></tr>
+<tr><td style='text-align:left'>ART.513</td><td style='text-align:left'>Amber</td><td style='text-align:center'>00</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>ART.513</td><td style='text-align:left'>Toast</td><td style='text-align:center'>0</td><td style='text-align:center'>5</td><td></td></tr>
+<tr><td style='text-align:left'>ART.513</td><td style='text-align:left'>Toast</td><td style='text-align:center'>00</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>ART.513</td><td style='text-align:left'>Light Toast</td><td style='text-align:center'>00</td><td style='text-align:center'>5</td><td></td></tr>
+
+<h3>ART.10001 — Durasoft</h3>
+
+<p><i>Состав: 95% полиамид, 5% эластан. Nylon, run resistant.</i></p>
+
+<p>Фото: <a href="assets/ennessy-via/pridance-10001-front.jpg">📷упаковка</a> <a href="assets/ennessy-via/pridance-10001-size-chart.jpg">📷размерная сетка</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>ART.10001</td><td style='text-align:left'>Toast</td><td style='text-align:center'>M</td><td style='text-align:center'>3</td><td></td></tr>
+<tr><td style='text-align:left'>ART.10001</td><td style='text-align:left'>Rosa</td><td style='text-align:center'>000</td><td style='text-align:center'>5</td><td></td></tr>
+<tr><td style='text-align:left'>ART.10001</td><td style='text-align:left'>Rosa</td><td style='text-align:center'>00</td><td style='text-align:center'>2</td><td></td></tr>
+
+<hr>
+
+<h2>Arina by Charmante — детские колготки для повседневной носки</h2>
+
+<p><b>Производитель:</b> Charmante Co. S.R.L. (Италия) — тот же, что и Arina Ballerina.</p>
+
+<p>Повседневные колготки, не для танцев.</p>
+
+<h3>Shelly — 40 den, с цветочным рисунком</h3>
+
+<p><i>Состав: 82% полиамид, 15% эластан, 3% хлопок.</i></p>
+
+<p><b>Размерная сетка:</b></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Размер</td><td style='text-align:left'>Возраст</td><td style='text-align:center'>Рост (см)</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>1</td><td style='text-align:left'>3–5 лет</td><td style='text-align:center'>104–110</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>2</td><td style='text-align:left'>5–7 лет</td><td style='text-align:center'>116–122</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>3</td><td style='text-align:left'>7–9 лет</td><td style='text-align:center'>128–134</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>4</td><td style='text-align:left'>9–11 лет</td><td style='text-align:center'>140–146</td><td></td><td></td></tr>
+<tr><td style='text-align:left'>5</td><td style='text-align:left'>11–13 лет</td><td style='text-align:center'>152–158</td><td></td><td></td></tr>
+
+<p>Фото упаковки: <a href="assets/ennessy-via/arina-charmante-shelly-front.jpg">📷лицевая</a> <a href="assets/ennessy-via/arina-charmante-shelly-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>Shelly</td><td style='text-align:left'>rosa</td><td style='text-align:center'>5</td><td style='text-align:center'>3</td><td></td></tr>
+
+<h3>Monik — 40 den, в горошек</h3>
+
+<p><i>Состав: 82% полиамид, 15% эластан, 3% хлопок.</i></p>
+
+<p>Фото упаковки: <a href="assets/ennessy-via/arina-charmante-monik-front.jpg">📷лицевая</a> <a href="assets/ennessy-via/arina-charmante-monik-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>Monik</td><td style='text-align:left'>rosa</td><td style='text-align:center'>5</td><td style='text-align:center'>2</td><td></td></tr>
+
+<h3>Nastrino — 30 den, с цветочным узором</h3>
+
+<p><i>Состав: полиамид, эластан.</i></p>
+
+<p>Фото упаковки: <a href="assets/ennessy-via/arina-charmante-nastrino-front.jpg">📷лицевая</a> <a href="assets/ennessy-via/arina-charmante-nastrino-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>Nastrino</td><td style='text-align:left'>голубой</td><td style='text-align:center'>5</td><td style='text-align:center'>2</td><td></td></tr>
+
+<h3>Pantino — 60 den, лосины</h3>
+
+<p><i>Состав: полиамид, эластан. Мягкий микрофибр, матовые.</i></p>
+
+<p>Фото упаковки: <a href="assets/ennessy-via/arina-charmante-pantino-front.jpg">📷лицевая</a> <a href="assets/ennessy-via/arina-charmante-pantino-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>Pantino</td><td style='text-align:left'>bianco</td><td style='text-align:center'>116-122</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>Pantino</td><td style='text-align:left'>turquoise</td><td style='text-align:center'>116-122</td><td style='text-align:center'>1</td><td></td></tr>
+
+<hr>
+
+<h2>MAYA by Astra Socks — детские колготки/носки</h2>
+
+<p><b>Производитель:</b> Astra Socks (Сербия). <b>Состав:</b> 85% полиамид, 15% эластан. 50 den.</p>
+
+<p>Комфортные колготки из микрофибры, равномерная плотность по всей длине. Новая технология — высокая прочность и эластичность.</p>
+
+<p>Фото упаковки: <a href="assets/astra-socks/maya-front.jpg">📷лицевая</a> <a href="assets/astra-socks/maya-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>чёрный</td><td style='text-align:center'>1</td><td style='text-align:center'>3</td><td></td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>чёрный</td><td style='text-align:center'>2</td><td style='text-align:center'>3</td><td></td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>чёрный</td><td style='text-align:center'>3</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>чёрный</td><td style='text-align:center'>4</td><td style='text-align:center'>2</td><td></td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>розовый</td><td style='text-align:center'>1</td><td style='text-align:center'>5</td><td></td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>розовый</td><td style='text-align:center'>2</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>розовый</td><td style='text-align:center'>3</td><td style='text-align:center'>7</td><td></td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>телесный</td><td style='text-align:center'>1</td><td style='text-align:center'>8</td><td></td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>телесный</td><td style='text-align:center'>2</td><td style='text-align:center'>6</td><td></td></tr>
+<tr><td style='text-align:left'>MAYA</td><td style='text-align:left'>телесный</td><td style='text-align:center'>3</td><td style='text-align:center'>2</td><td></td></tr>
+
+<h3>ANNA — 60 den, шелковые полупрозрачные с блеском</h3>
+
+<p><i>Состав: 83% полиамид, 17% эластан. Шёлковые полупрозрачные колготки с блеском. Для гимнастики, танцев и повседневной носки.</i></p>
+
+<p>Фото упаковки: <a href="assets/astra-socks/anna-front.jpg">📷лицевая</a> <a href="assets/astra-socks/anna-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>ANNA</td><td style='text-align:left'>розовый</td><td style='text-align:center'>1</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>ANNA</td><td style='text-align:left'>розовый</td><td style='text-align:center'>3</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>ANNA</td><td style='text-align:left'>tan</td><td style='text-align:center'>1</td><td style='text-align:center'>3</td><td></td></tr>
+
+<h3>LIZA — 40 den, колготки для балета и гимнастики</h3>
+
+<p><i>Состав: 92% полиамид, 8% эластан. Гладкие колготки без шорт, для балета и гимнастики.</i></p>
+
+<p>Фото упаковки: <a href="assets/astra-socks/liza-front.jpg">📷лицевая</a> <a href="assets/astra-socks/liza-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>LIZA</td><td style='text-align:left'>розовый</td><td style='text-align:center'>2</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>LIZA</td><td style='text-align:left'>розовый</td><td style='text-align:center'>3</td><td style='text-align:center'>2</td><td></td></tr>
+
+<h3>HAIDI DANCE — 90 den, микрофибра + 3D лайкра</h3>
+
+<p><i>Состав: 76% полиамид, 24% эластан. Микрофибра + 3D лайкра. Комфортные, равномерная плотность по всей длине, не провисают. Новая технология — высокая прочность и эластичность.</i></p>
+
+<p>Фото упаковки: <a href="assets/astra-socks/haidi-dance-front.jpg">📷лицевая</a> <a href="assets/astra-socks/haidi-dance-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>HAIDI DANCE</td><td style='text-align:left'>светло‑розовый</td><td style='text-align:center'>1</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>HAIDI DANCE</td><td style='text-align:left'>розовый тёмный</td><td style='text-align:center'>2</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>HAIDI DANCE</td><td style='text-align:left'>tan (автозагар)</td><td style='text-align:center'>1</td><td style='text-align:center'>2</td><td></td></tr>
+
+<h3>ALEXANDRA (Александра) / «Чера Дэнс» by Chersa — 40 den</h3>
+
+<p><i>Бренд: Astra Socks (Сербия). Дистрибьютор: ЧЕРСА-АРТ (Москва). Состав: 83% полиамид, 17% эластан. Микрофибра + 3D лайкра. Комфортные колготки из микрофибры с равномерно распределённой плотностью по всей длине, без штанишек. Новая технология обеспечивает высокую прочность и эластичность.</i></p>
+
+<p>Фото: <a href="assets/mazal-textile/alexandra-front.jpg">📷упаковка</a> <a href="assets/mazal-textile/alexandra-label.jpg">📷этикетка</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>ALEXANDRA</td><td style='text-align:left'>tan</td><td style='text-align:center'>1</td><td style='text-align:center'>3</td><td></td></tr>
+<tr><td style='text-align:left'>ALEXANDRA</td><td style='text-align:left'>белый</td><td style='text-align:center'>2</td><td style='text-align:center'>3</td><td></td></tr>
+<tr><td style='text-align:left'>ALEXANDRA</td><td style='text-align:left'>розовый</td><td style='text-align:center'>3</td><td style='text-align:center'>1</td><td></td></tr>
+
+<hr>
+
+<h2>ALINA by Mazal Textile — детские балетные колготки</h2>
+
+<p><b>Производитель:</b> Mazal Textile (Россия). <b>Состав:</b> 85% полиамид, 15% эластан. 90 den.</p>
+
+<p>Фото упаковки: <a href="assets/mazal-textile/alina-front.jpg">📷лицевая</a> <a href="assets/mazal-textile/alina-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>ALINA</td><td style='text-align:left'>чёрный</td><td style='text-align:center'>146–152</td><td style='text-align:center'>2</td><td></td></tr>
+
+<hr>
+
+<h2>CHERSA — детские колготки 40 den</h2>
+
+<p><b>Производитель:</b> Astra Socks (Сербия). <b>Состав:</b> 83% полиамид, 17% эластан. 40 den.</p>
+
+<p>Комфортные колготки из микрофибры, равномерная плотность по всей длине.</p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>6241</td><td style='text-align:left'>автозагар</td><td style='text-align:center'>3/140–146</td><td style='text-align:center'>6</td><td></td></tr>
+<tr><td style='text-align:left'>FIOCCO 40</td><td style='text-align:left'>розовый</td><td style='text-align:center'>128–134</td><td style='text-align:center'>1</td><td></td></tr>
+
+<h3>80 DEN — танцевальные колготки</h3>
+
+<p><i>Состав: 97% полиэстер, 3% эластан. Производство: Россия.</i></p>
+
+<p>Фото упаковки: <a href="assets/chersa/80den-front.jpg">📷лицевая</a> <a href="assets/chersa/80den-back.jpg">📷задняя</a></p>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>CHERSA 80</td><td style='text-align:left'>чёрный</td><td style='text-align:center'>1</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>CHERSA 80</td><td style='text-align:left'>чёрный</td><td style='text-align:center'>2</td><td style='text-align:center'>2</td><td></td></tr>
+<tr><td style='text-align:left'>CHERSA 80</td><td style='text-align:left'>чёрный</td><td style='text-align:center'>3</td><td style='text-align:center'>1</td><td></td></tr>
+<tr><td style='text-align:left'>CHERSA 80</td><td style='text-align:left'>белый</td><td style='text-align:center'>3</td><td style='text-align:center'>1</td><td></td></tr>
+
+<h3>Лосины</h3>
+
+<table>
+<tr><th>Артикул</th><th>Цвет</th><th>Размер</th><th>Кол-во</th><th>Примечание</th></tr>
+<tr><td style='text-align:left'>Артикул</td><td style='text-align:left'>Цвет</td><td style='text-align:center'>Размер</td><td style='text-align:center'>Кол-во</td><td style='text-align:center'>Примечание</td></tr>
+<tr><td style='text-align:left'>CHERSA</td><td style='text-align:left'>чёрный</td><td style='text-align:center'>4</td><td style='text-align:center'>3</td><td></td></tr>
+
+<p class="footer">Обновлено: 07.11.2026 22:06 · <a href="https://github.com/Skokidze/mama-shop">mama-shop</a></p>
 </div>
 </body>
 </html>
